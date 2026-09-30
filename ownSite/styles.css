@@ -1,0 +1,193 @@
+
+:root{
+    --color0 :#1e42168a;
+    --color1 : #295d1e;
+    --color2 : #1d4d16;
+    --color3 : #133c0f;
+    --color4 : #0a2c07;
+    --color5 : #001b00;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+body{
+    background-color:var(--color4);
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 70%;
+    margin-top: 40px;
+    color: white;
+    gap: 20px;
+
+}
+
+header{
+    background-color:var(--color2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    gap: 60px;
+    box-shadow: 0px 0px 10px 15px var(--color5);
+    border-bottom: solid 3px rgb(116, 189, 21);
+    position: fixed;
+    top:0px;
+}
+
+footer{
+    background-color:var(--color2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    box-shadow: 0px 0px 10px 10px var(--color5);
+    color: white;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+
+#div-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.link:hover{
+    background-color:var(--color0);
+    border-radius: 18px;
+}
+.link{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.florblanca{
+    width: 50px;
+    height: 80px;
+}
+
+.florverde{
+    width: 160px;
+    height: 160px;
+}
+
+.seccion-1{
+    margin: 50px;
+}
+
+#sobremi p{
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 390px;
+}
+
+
+#sobremi{
+    width: 100%;
+    height: 100%;
+    margin: 0px 40px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.titulo-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dibujo{
+    width: 350px;
+    height: 450px;
+    margin: 25px ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px rgb(116, 189, 21);
+}
+
+.dibujo2{
+    width: 330px;
+    height: 350px;
+    margin-top: 20px ;
+    background-color: #1b6e0ebd;
+    box-shadow: 0px 0px 20px 10px rgb(116, 189, 21);
+    border-radius: 10px;
+}
+
+.dibujo-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.dibujo-container p{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+    max-width: 340px;
+    min-width: 170px;
+    max-height: 225px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#proyectos{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    place-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: var(--color5);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.proyect{
+    width:330px;
+    height:190px;
+}
+
+#proyectos p{
+    width:330px;
+    height:190px;
+}
